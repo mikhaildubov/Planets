@@ -9,7 +9,7 @@ Besides, the application demostrates some principles of building up Silverlight-
 The project consists of three components:
 
 1) DCL.Maths library, the basic quaternion arithmetic implementation;
-2) DCL.Phone.Xna, containig
+2) DCL.Phone.Xna library, containig:
    * 3D primitives collection (Shpere, Ellipsoid et al.);
    * Pivot control implementation for use in XNA applications;
-3) Windows Phone 7 application, visualizing the algorithms of the libraries.
+3) "Planets", the Windows Phone 7 application, visualizing the algorithms of the libraries.
