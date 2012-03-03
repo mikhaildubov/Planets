@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DCL.Phone.Xna.Fonts" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAFEAAAAQAAAAAAAAAAAAABAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.GameHelper" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.PivotGame">
+    <Position X="9.75" Y="4.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="DCL.Phone.Xna.PivotGame.SelectionChangedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PivotGame.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAQUEAAAAAAgC1gAGAAACBAAqAAADIAARIAgQAAsCAY=</HashCode>
+      <FileName>PivotGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.SelectionChangedEventArgs" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>PivotGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.PivotGameItem">
+    <Position X="12.5" Y="4.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>DAQIIAAQAAKgAgCAAAQCQAAACAAABACgAAAAoAAAAgA=</HashCode>
+      <FileName>PivotGameItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.Circle" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.Dot" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\Dot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.Ellipse" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\Ellipse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.Ellipsoid" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\Ellipsoid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.Shape" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAEAgJgCACAAAAAAAMAAEBAAAAAOEAAIJAAA=</HashCode>
+      <FileName>Shapes\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.Sphere" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shapes\Sphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Xna.Framework.Game" Collapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="DCL.Phone.Xna.DrawingArea" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAACAAAAAAAAAAQAAAAYAA=</HashCode>
+      <FileName>PivotGameItem.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="DCL.Phone.Xna.DrawMode" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKAAAAAAIAAAA=</HashCode>
+      <FileName>Shapes\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

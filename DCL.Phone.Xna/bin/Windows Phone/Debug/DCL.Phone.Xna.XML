@@ -1,0 +1,693 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DCL.Phone.Xna</name>
+    </assembly>
+    <members>
+        <member name="T:DCL.Phone.Xna.Ellipsoid">
+            <summary>
+            Represents an ellipse which is actually a many sided three-dimensional polygon.
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.Shape">
+            <summary>
+            An abstract class that represents a three-dimensional shape and has methods
+            to draw and rotate it.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.Shape.currentVertices">
+            <summary>
+            The array that stores the shape's vertices after the transformations occured.
+            These vertices are used while drawing the shape.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.Shape.startVertices">
+            <summary>
+            The array that stores the shape's initial vertices.
+            Calling Reset() copies the values from this array to currentVertices.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.Shape.triangleIndices">
+            <summary>
+            The triangle indices array that is used when drawing in solid and texture modes.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.Shape.lineIndices">
+            <summary>
+            The line indices array that is used when drawing in line mode.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.Shape.startCenter">
+            <summary>
+            The initial center of the shape.
+            Calling Reset() copies this value to the Center property.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.#ctor">
+            <summary>
+            Constructor that initializes the center with zero vector.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.Reset">
+            <summary>
+            Returns the shape to its initial state.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.Rotate(DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Rotates the shape around an axis over a specified angle. The rotation is based on quaternions.
+            </summary>
+            <param name="Axis">A quaternion or a Vector3 object that represents the axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle">The angle of rotation.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.Rotate(DCL.Maths.Quaternion,DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Rotates the shape around an axis over a specified angle. The rotation is based on quaternions.
+            </summary>
+            <param name="Axis">A quaternion or a Vector3 object that represents the axis.</param>
+            <param name="Translation">A quaternion or a Vector3 object that represents the point at which the axis starts.</param>
+            <param name="RotationAngle">The angle of rotation.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.RotateComposition(DCL.Maths.Quaternion,System.Single,DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Rotates the shape around two axises over two specified angles. The rotation is based on quaternions.
+            </summary>
+            <param name="Axis1">A quaternion or a Vector3 object that represents the first axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle1">The angle of rotation around the first axis.</param>
+            <param name="Axis2">A quaternion or a Vector3 object that represents the second axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle2">The angle of rotation around the second axis.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.RotateComposition(DCL.Maths.Quaternion,System.Single,DCL.Maths.Quaternion,System.Single,DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Rotates the shape around two axises over two specified angles. The rotation is based on quaternions.
+            </summary>
+            <param name="Axis1">A quaternion or a Vector3 object that represents the first axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle1">The angle of rotation around the first axis.</param>
+            <param name="Axis2">A quaternion or a Vector3 object that represents the second axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle2">The angle of rotation around the second axis.</param>
+            <param name="Axis3">A quaternion or a Vector3 object that represents the third axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle3">The angle of rotation around the third axis.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.RotateDefault">
+            <summary>
+            Performs the default rotation, which can be changed through the SetDefaultRotation method.
+            Is preferable in cases when the axises and angles don't change each frame.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.SetDefaultRotation(DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Sets the default rotation for the RotateDefault() method.
+            </summary>
+            <param name="Axis">A quaternion or a Vector3 object that represents the axis.</param>
+            <param name="RotationAngle">The angle of rotation around the axis.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.SetDefaultRotation(DCL.Maths.Quaternion,System.Single,DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Sets the default rotation for the RotateDefault() method.
+            </summary>
+            <param name="Axis1">A quaternion or a Vector3 object that represents the first axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle1">The angle of rotation around the first axis.</param>
+            <param name="Axis2">A quaternion or a Vector3 object that represents the second axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle2">The angle of rotation around the second axis.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.SetDefaultRotation(DCL.Maths.Quaternion,System.Single,DCL.Maths.Quaternion,System.Single,DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Sets the default rotation for the RotateDefault() method.
+            </summary>
+            <param name="Axis1">A quaternion or a Vector3 object that represents the first axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle1">The angle of rotation around the first axis.</param>
+            <param name="Axis2">A quaternion or a Vector3 object that represents the second axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle2">The angle of rotation around the second axis.</param>
+            <param name="Axis3">A quaternion or a Vector3 object that represents the third axis. It is assumed that the axis starts at the origin.</param>
+            <param name="RotationAngle3">The angle of rotation around the third axis.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.Translate(DCL.Maths.Quaternion)">
+            <summary>
+            Translates the shape over a specified vector.
+            </summary>
+            <param name="Translation">A quaternion or a Vector3 object that represents the translation.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.Scale(System.Single)">
+            <summary>
+            Scales the shape.
+            </summary>
+            <param name="scale">the scaling coefficient.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.Draw(Microsoft.Xna.Framework.Graphics.BasicEffect,DCL.Phone.Xna.DrawMode)">
+            <summary>
+            Draws the shape to the specified GraphicsDevice.
+            </summary>
+            <param name="basicEffect">The effect of drawing.</param>
+            <param name="mode">The drawing mode.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.DrawScene(Microsoft.Xna.Framework.Graphics.BasicEffect,DCL.Phone.Xna.DrawMode,DCL.Phone.Xna.Shape[])">
+            <summary>
+            Draws a set of shapes to the specified GraphicsDevice.
+            The assumtion is that the camera is placed on the positive half of the Z axis.
+            </summary>
+            <param name="effect">The effect of drawing.</param>
+            <param name="mode">The drawing mode.</param>
+            <param name="shapes">The shapes to draw. The order they come is not important.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Shape.DrawScene(Microsoft.Xna.Framework.Graphics.BasicEffect,DCL.Phone.Xna.DrawMode,DCL.Phone.Xna.Shape[],DCL.Phone.Xna.Shape[])">
+            <summary>
+            Draws a set of shapes to the specified GraphicsDevice.
+            The assumtion is that the camera is placed on the positive half of the Z axis.
+            </summary>
+            <param name="effect">The effect of drawing.</param>
+            <param name="mode">The drawing mode.</param>
+            <param name="shapes1">The shapes to draw. The order they come is not important.</param>
+            <param name="shapes2">The shapes to draw. The order they come is not important.</param>
+        </member>
+        <member name="P:DCL.Phone.Xna.Shape.Center">
+            <summary>
+            Gets or sets the center point of the shape.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.Shape.Texture">
+            <summary>
+            Gets or sets the texture that is drawn to the surface of shape
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.Shape.GraphicsDevice">
+            <summary>
+            Gets or sets the graphics device that is responsible for drawing the shape
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.Shape.DefaultRotation">
+            <summary>
+            Gets or sets the quaternion that represents the default rotation for the shape.
+            This quaternion is used in the RotateDefault() method.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.Ellipsoid.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Single,System.Single,System.Single,System.Int32)">
+            <summary>
+            Sets up an ellipse.
+            </summary>
+            <param name="cent">The center of the ellipse.</param>
+            <param name="radius">The radius of the ellipse.</param>
+            <param name="radiusRatioX">The coefficient of stretching along the X axis.</param>
+            <param name="radiusRatioY">The coefficient of stretching along the Y axis.</param>
+            <param name="radiusRatioZ">The coefficient of stretching along the Z axis.</param>
+            <param name="precision">A factor which influences the precision with that the ellipse is drawn. The recommended value for Windows Phone 7 is 10-14.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Ellipsoid.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Single,System.Single,System.Single,System.Int32,Microsoft.Xna.Framework.Graphics.Texture2D)">
+            <summary>
+            Sets up an ellipse.
+            </summary>
+            <param name="cent">The center of the ellipse.</param>
+            <param name="radius">The radius of the ellipse.</param>
+            <param name="radiusRatio">The coefficient of stretching along the X axis.</param>
+            <param name="precision">A factor which influences the precision with that the ellipse is drawn. The recommended value for Windows Phone 7 is 10-14.</param>
+            <param name="texture">The texture that is drawn to the surface of the ellipse.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Ellipsoid.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Single,System.Single,System.Single,System.Int32,Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Graphics.GraphicsDevice)">
+            <summary>
+            Sets up an ellipse.
+            </summary>
+            <param name="cent">The center of the ellipse.</param>
+            <param name="radius">The radius of the ellipse.</param>
+            <param name="radiusRatioX">The coefficient of stretching along the X axis.</param>
+            <param name="radiusRatioY">The coefficient of stretching along the Y axis.</param>
+            <param name="radiusRatioZ">The coefficient of stretching along the Z axis.</param>
+            <param name="precision">A factor which influences the precision with that the ellipse is drawn. The recommended value for Windows Phone 7 is 10-14.</param>
+            <param name="texture">The texture that is drawn to the surface of the ellipse.</param>
+            <param name="graphicsDevice">The graphics device to which the ellipse is drawn.</param>
+        </member>
+        <member name="P:DCL.Phone.Xna.Ellipsoid.Radius">
+            <summary>
+            Gets the radius.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.Ellipsoid.Axis">
+            <summary>
+            Gets a normalized vector with direction from the center to the upper pole.
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.Ellipse">
+            <summary>
+            Represents an ellipse which is actually a many sided polygon.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.Ellipse.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Single,System.Single,System.Int32)">
+            <summary>
+            Sets up an ellipse.
+            </summary>
+            <param name="cent">The center of the ellipse.</param>
+            <param name="radius">The radius of the ellipse.</param>
+            <param name="radiusRatioX">The coefficient of stretching along the X axis.</param>
+            <param name="radiusRatioY">The coefficient of stretching along the Y axis.</param>
+            <param name="precision">A factor which influences the precision with that the ellipse is drawn. The value is actually the number of sides in the polygon.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Ellipse.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Single,System.Single,System.Int32,Microsoft.Xna.Framework.Graphics.Texture2D)">
+            <summary>
+            Sets up an ellipse.
+            </summary>
+            <param name="cent">The center of the ellipse.</param>
+            <param name="radius">The radius of the ellipse.</param>
+            <param name="radiusRatioX">The coefficient of stretching along the X axis.</param>
+            <param name="radiusRatioY">The coefficient of stretching along the Y axis.</param>
+            <param name="precision">A factor which influences the precision with that the ellipse is drawn. The value is actually the number of sides in the polygon.</param>
+            <param name="texture">The texture that is drawn to the surface of the ellipse.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Ellipse.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Single,System.Single,System.Int32,Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Graphics.GraphicsDevice)">
+            <summary>
+            Sets up an ellipse.
+            </summary>
+            <param name="cent">The center of the ellipse.</param>
+            <param name="radius">The radius of the ellipse.</param>
+            <param name="radiusRatioX">The coefficient of stretching along the X axis.</param>
+            <param name="radiusRatioY">The coefficient of stretching along the Y axis.</param>
+            <param name="precision">A factor which influences the precision with that the ellipse is drawn. The value is actually the number of sides in the polygon.</param>
+            <param name="texture">The texture that is drawn to the surface of the ellipse.</param>
+            <param name="graphicsDevice">The graphics device to which the ellipse is drawn.</param>
+        </member>
+        <member name="P:DCL.Phone.Xna.Ellipse.Radius">
+            <summary>
+            Gets the radius of the ellipse.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.Ellipse.Axis">
+            <summary>
+            Gets a normalized vector with direction from the center to the initial upper point.
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.Fonts">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.Fonts.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.Fonts.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.PivotGame">
+            <summary>
+            Provides an extending "wrapper" over the default Microsoft.Xna.Framework.Game
+            with pivot functionality (pivot is a UI based on switching between tabs).
+            XNA games that require the tab interface should derive from this class.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.PivotGame.HeaderFont">
+            <summary>
+            The standard font for drawing page headers that can be changed.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.PivotGame.ContentFont">
+            <summary>
+            The font that is used to draw text on the page and can be changed.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.PivotGame.TitleFont">
+            <summary>
+            The font that is used to draw the application title and can be changed
+            (the recommended font size is 16-20)
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.#ctor">
+            <summary>
+            The constructor which initializes the GraphicsDeviceManager object.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.AddItem(DCL.Phone.Xna.PivotGameItem)">
+            <summary>
+            Adds a new item to the pivot pages collection.
+            </summary>
+            <param name="pgi">The item to add.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.Initialize">
+            <summary>
+            Allows the game to perform any initialization it needs to before starting to run.
+            This is where it can query for any required services and load any non-graphic
+            related content. Calling base.Initialize will enumerate through any components
+            and initialize them as well.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.LoadContent">
+            <summary>
+            LoadContent will be called once per game and is the place to load
+            all of your content.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.UnloadContent">
+            <summary>
+            UnloadContent will be called once per game and is the place to unload
+            all content.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.Update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Allows the game to run logic such as updating the world,
+            checking for collisions, gathering input, and playing audio.
+            </summary>
+            <param name="gameTime">Provides a snapshot of timing values.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.Draw(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            This is called when the game should draw itself.
+            </summary>
+            <param name="gameTime">Provides a snapshot of timing values.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.DrawString(Microsoft.Xna.Framework.Graphics.SpriteFont,System.String,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)">
+            <summary>
+            Draws a string (considers the possible page's displacement).
+            </summary>
+            <param name="font">Font of the text.</param>
+            <param name="text">The text to draw</param>
+            <param name="position">The position of the left upper corner of the text.</param>
+            <param name="color">Color of the text.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGame.DrawSprite(Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Color)">
+            <summary>
+            Renders a texture (considers the possible page's displacement).
+            </summary>
+            <param name="sprite">The texture to draw.</param>
+            <param name="position">The position of the left upper corner of the texture.</param>
+            <param name="color">Color of the texture.</param>
+        </member>
+        <member name="E:DCL.Phone.Xna.PivotGame.SelectionChanged">
+            <summary>
+            Is fired when used changes the current pivot page by scrolling or tapping at the header.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.Title">
+            <summary>
+            Gets or sets the title of the application.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.BackgroundColor">
+            <summary>
+            Gets or sets the background color of all the pivot pages.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.ForegroundColor">
+            <summary>
+            Gets or sets the foreground (text) color of all the pivot pages.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.SceneBackgroundColor">
+            <summary>
+            Gets or sets the background color of scenes on all the pivot pages.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.SceneBackgroundTexture">
+            <summary>
+            Gets or sets the background texture of scenes on all the pivot pages.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.DrawingArea">
+            <summary>
+            Gets or sets the rectangle for the scenes on all the pivot pages.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.SplashScreenImage">
+            <summary>
+            Gets or sets the image that is shown while loading the application.
+            The property should be set in the LoadContent() method before calling base.LoadContent().
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.GraphicsDeviceManager">
+            <summary>
+            Gets or sets the default GraphicsDeviceManager object of the game.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.SpriteBatch">
+            <summary>
+            Gets or sets the default SpriteBatch object that is used by the game to draw textures.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.BasicEffect">
+            <summary>
+            Gets or sets the default BasicEffect object that is used by the game to draw 3D scenes.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.Projection">
+            <summary>
+            The projection type for BasicEffect.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.CameraScale">
+            <summary>
+            Gets or sets the coefficient that is used to calculate the camera's width, height and depth.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.Zoom">
+            <summary>
+            Gets or sets the camera's zoom.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.SceneCenterTranslation">
+            <summary>
+            Gets or sets the vector by that the 3D scene's center is translated.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.SelectedIndex">
+            <summary>
+            Gets or sets the current page index. If the index changes, then the SelectionChanged event is fired.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.Item(System.Int32)">
+            <summary>
+            The indexer that enables access to separate pivot pages.
+            </summary>
+            <param name="i">The index of page.</param>
+            <returns>The PivotGameItem object that perpesents the page.</returns>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.ItemsCount">
+            <summary>
+            Gets the amount of pages in pivot.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.ChangingPages">
+            <summary>
+            Indicates whether the pages are changing at the moment
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGame.Touches">
+            <summary>
+            Gets or sets the current state of the touch panel.
+            It should be initialized before calling base.Update(gameTime).
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.PivotGame.SelectionChangedEventHandler">
+            <summary>
+            The devegate for the SelectionChanged event handler.
+            </summary>
+            <param name="sender">object that fires the event.</param>
+            <param name="e">Event arguments that contain the previous selected page index.</param>
+        </member>
+        <member name="T:DCL.Phone.Xna.SelectionChangedEventArgs">
+            <summary>
+            Arguments for the SelectionChanged event that contain the previous selected page index.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.SelectionChangedEventArgs.#ctor(System.Int32)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="previousIndex">The index of the page that was current before the selection changed.</param>
+        </member>
+        <member name="P:DCL.Phone.Xna.SelectionChangedEventArgs.PreviousIndex">
+            <summary>
+            The index of the page that was current before the selection changed.
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.ProjectionType">
+            <summary>
+            The projection type for BasicEffect
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.ProjectionType.Perspective">
+            <summary>
+            Perspective projection.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.ProjectionType.Orthographic">
+            <summary>
+            Orthographic projection.
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.Circle">
+            <summary>
+            Represents a circle which is actually a many sided polygon.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.Circle.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Int32)">
+            <summary>
+            Sets up a circle.
+            </summary>
+            <param name="center">The center of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <param name="precision">A factor which influences the precision with that the circle is drawn. The value is actually the number of sides in the polygon.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Circle.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Int32,Microsoft.Xna.Framework.Graphics.Texture2D)">
+            <summary>
+            Sets up a circle.
+            </summary>
+            <param name="cent">The center of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <param name="precision">A factor which influences the precision with that the circle is drawn. The value is actually the number of sides in the polygon.</param>
+            <param name="texture">The texture that is drawn to the surface of the circle.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Circle.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Int32,Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Graphics.GraphicsDevice)">
+            <summary>
+            Sets up a circle.
+            </summary>
+            <param name="cent">The center of the circle.</param>
+            <param name="radius">The radius of the circle.</param>
+            <param name="precision">A factor which influences the precision with that the circle is drawn. The value is actually the number of sides in the polygon.</param>
+            <param name="texture">The texture that is drawn to the surface of the circle.</param>
+            <param name="graphicsDevice">The graphics device to which the circle is drawn.</param>
+        </member>
+        <member name="T:DCL.Phone.Xna.DrawMode">
+            <summary>
+            The enumeration of ways in which the shape can be drawn.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.DrawMode.Lines">
+            <summary>
+            Draws the outline of the shape only.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.DrawMode.Solid">
+            <summary>
+            Draws the shape's surface.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.DrawMode.SolidWithLines">
+            <summary>
+            Draws both the surface and the outline of the shape.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.DrawMode.Textured">
+            <summary>
+            Draws the texture on the shape's surface.
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.Sphere">
+            <summary>
+            Represents a sphere which is actually a many sided three-dimensional polygon.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.Sphere.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Int32)">
+            <summary>
+            Sets up a sphere.
+            </summary>
+            <param name="center">The center of the sphere.</param>
+            <param name="radius">The radius of the sphere.</param>
+            <param name="precision">A factor which influences the precision with that the sphere is drawn. The recommended value for Windows Phone 7 is 10-14.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Sphere.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Int32,Microsoft.Xna.Framework.Graphics.Texture2D)">
+            <summary>
+            Sets up a sphere.
+            </summary>
+            <param name="cent">The center of the sphere.</param>
+            <param name="radius">The radius of the sphere.</param>
+            <param name="precision">A factor which influences the precision with that the sphere is drawn. The recommended value for Windows Phone 7 is 10-14.</param>
+            <param name="texture">The texture that is drawn to the surface of the sphere.</param>
+        </member>
+        <member name="M:DCL.Phone.Xna.Sphere.#ctor(Microsoft.Xna.Framework.Vector3,System.Single,System.Int32,Microsoft.Xna.Framework.Graphics.Texture2D,Microsoft.Xna.Framework.Graphics.GraphicsDevice)">
+            <summary>
+            Sets up a sphere.
+            </summary>
+            <param name="center">The center of the sphere.</param>
+            <param name="radius">The radius of the sphere.</param>
+            <param name="precision">A factor which influences the precision with that the sphere is drawn. The recommended value for Windows Phone 7 is 10-14.</param>
+            <param name="texture">The texture that is drawn to the surface of the sphere.</param>
+            <param name="graphicsDevice">The graphics device to which the sphere is drawn.</param>
+        </member>
+        <member name="T:DCL.Phone.Xna.PivotGameItem">
+            <summary>
+            Represents single pivot pages that contain application title, tab header,
+            a 3D scene and some additional graphics (e.g. text).
+            A dynamic list of type PivotGameItem is stored in any class that derives from PivotGame.
+            </summary>
+        </member>
+        <member name="F:DCL.Phone.Xna.PivotGameItem.DrawingArea">
+            <summary>
+            The rectangle for a scene on the page.
+            </summary>
+        </member>
+        <member name="M:DCL.Phone.Xna.PivotGameItem.#ctor">
+            <summary>
+            The page's constructor. Initializes the drawing area and the page colors by default values.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGameItem.BackgroundColor">
+            <summary>
+            Gets or sets the background color of the page.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGameItem.ForegroundColor">
+            <summary>
+            Gets or sets the foreground (text) color of the page.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGameItem.Header">
+            <summary>
+            Gets or sets the tab header.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.PivotGameItem.Parent">
+            <summary>
+            Gets or sets the pivot the page belongs to.
+            </summary>
+        </member>
+        <member name="E:DCL.Phone.Xna.PivotGameItem.DrawScene">
+            <summary>
+            An event that is fired each drawing cycle. 
+            Its handler should have the code for drawing
+            the 3D scene.
+            </summary>
+        </member>
+        <member name="E:DCL.Phone.Xna.PivotGameItem.DrawFrame">
+            <summary>
+            An event that is fired each drawing cycle. 
+            Its handler should have the code for drawing
+            additional graphics, e.g. texts.
+            </summary>
+        </member>
+        <member name="T:DCL.Phone.Xna.DrawingArea">
+            <summary>
+            A structure that represents the rectangle in which the 3D scene is being drawn.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.DrawingArea.X">
+            <summary>
+            The X coordinate of the left upper corner of the rectangle.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.DrawingArea.Y">
+            <summary>
+            The Y coordinate of the left upper corner of the rectangle.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.DrawingArea.Width">
+            <summary>
+            The width of the rectangle.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.DrawingArea.Height">
+            <summary>
+            The height of the rectangle.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.DrawingArea.BackgroundColor">
+            <summary>
+            The background color of the rectangle.
+            </summary>
+        </member>
+        <member name="P:DCL.Phone.Xna.DrawingArea.BackgroundTexture">
+            <summary>
+            The background texture of the rectangle.
+            </summary>
+        </member>
+    </members>
+</doc>

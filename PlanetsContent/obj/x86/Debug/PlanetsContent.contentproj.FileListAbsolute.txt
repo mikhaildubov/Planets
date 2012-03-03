@@ -1,0 +1,2 @@
+C:\Users\Михаил Дубов\Мои программы\Windows Phone\Planets\Planets\PlanetsContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\PlanetsContent\obj\x86\Debug\ResolveAssemblyReference.cache

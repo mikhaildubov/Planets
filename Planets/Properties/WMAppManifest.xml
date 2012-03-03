@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.0">
+  <App xmlns="" ProductID="{277b4812-3e8f-4d70-b2a7-08e4fe84d155}" Title="Planets" RuntimeType="XNA" Version="1.2.0.0" Genre="Apps.Normal" Author="Mikhail Dubov" Description="" Publisher="Mikhail Dubov">
+    <IconPath IsRelative="true" IsResource="false"></IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_LOCATION" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default"/>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="PlanetsToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false"></BackgroundImageURI>
+          <Count>0</Count>
+          <Title></Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
+

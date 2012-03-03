@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DCL.Maths</name>
+    </assembly>
+    <members>
+        <member name="T:DCL.Maths.Common">
+            <summary>
+            A static class that contains several common mathematical methods
+            and extends the functionality of Math.Round.
+            </summary>
+        </member>
+        <member name="M:DCL.Maths.Common.Round(System.Double,System.Int32)">
+            <summary>
+            Rounds a number in mathematical rules.
+            Unlike Math.Round, Common.Round(34.45, 1) returns 34.5 instead of 34.4.
+            </summary>
+            <param name="number">A fractional number to be rounded.</param>
+            <param name="precision">The number of decimal places in the return value.</param>
+            <returns>A double value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.Round(System.Double)">
+            <summary>
+            Rounds a number in mathematical rules.
+            Unlike Math.Round, Common.Round(34.5) returns 35 instead of 34.
+            </summary>
+            <param name="number">A fractional number to be rounded.</param>
+            <returns>A double value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.Cbrt(System.Double)">
+            <summary>
+            Calculates the cube root of a number.
+            </summary>
+            <param name="x">The initial double value.</param>
+            <returns>A double value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.Factorial(System.UInt32)">
+            <summary>
+            Calculates the factorial of a natural number.
+            </summary>
+            <param name="x">The initial natural value; the value can be zero.</param>
+            <returns>A natural value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.DoubleFactorial(System.UInt32)">
+            <summary>
+            Calculates the double factorial of a natural number.
+            </summary>
+            <param name="x">The initial natural value; the value can be zero.</param>
+            <returns>A natural value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.LCM(System.UInt32,System.UInt32)">
+            <summary>
+            Calculates the least common multiple of two natural numbers.
+            </summary>
+            <param name="a">The first natural number.</param>
+            <param name="b">The second natural number.</param>
+            <returns>A natural value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.GCD(System.UInt32,System.UInt32)">
+            <summary>
+            Calculates the greatest common divisor of two natural numbers.
+            </summary>
+            <param name="a">The first natural number.</param>
+            <param name="b">The second natural number.</param>
+            <returns>A natural value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.FractionalPart(System.Double)">
+            <summary>
+            Calculates the fractional part of a number.
+            </summary>
+            <param name="x">The initial fractional number.</param>
+            <returns>A double value, the integral part of which is equal to zero.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.FractionalPart(System.Decimal)">
+            <summary>
+            Calculates the fractional part of a number.
+            </summary>
+            <param name="x">The initial fractional number.</param>
+            <returns>A decimal value, the integral part of which is equal to zero.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.FractionalPartLength(System.Double)">
+            <summary>
+            Calculates the length of the fractional part of a number.
+            </summary>
+            <param name="x">The initial fractional number.</param>
+            <returns>An integer value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.FractionalPartLength(System.Decimal)">
+            <summary>
+            Calculates the length of the fractional part of a number.
+            </summary>
+            <param name="x">The initial fractional number.</param>
+            <returns>An integer value.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.IsPrime(System.UInt32)">
+            <summary>
+            Defines if an unsigned integer is a prime number.
+            </summary>
+            <param name="number">A number to be analyzed.</param>
+            <returns>True if prime; false otherwise.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.IsPrime(System.UInt64)">
+            <summary>
+            Defines if an unsigned integer is a prime number.
+            </summary>
+            <param name="number">A number to be analyzed.</param>
+            <returns>True if prime; false otherwise.</returns>
+        </member>
+        <member name="M:DCL.Maths.Common.Swap(System.UInt32@,System.UInt32@)">
+            <summary>
+            Swaps the values of two variables.
+            </summary>
+            <param name="a">The first variable.</param>
+            <param name="b">The second variable.</param>
+        </member>
+        <member name="M:DCL.Maths.Common.Swap(System.Int32@,System.Int32@)">
+            <summary>
+            Swaps the values of two variables.
+            </summary>
+            <param name="a">The first variable.</param>
+            <param name="b">The second variable.</param>
+        </member>
+        <member name="M:DCL.Maths.Common.BinomialCoefficient(System.UInt32,System.UInt32)">
+            <summary>
+            Calculates the binomial coeffitient (which is also the amount of k-combinations of n)
+            </summary>
+        </member>
+        <member name="F:DCL.Maths.Quaternion.Re">
+            <summary>
+            The scalar (real) part of the quaternion.
+            </summary>
+        </member>
+        <member name="F:DCL.Maths.Quaternion.X">
+            <summary>
+            The i factor of the quaternion.
+            </summary>
+        </member>
+        <member name="F:DCL.Maths.Quaternion.Y">
+            <summary>
+            The j factor of the quaternion.
+            </summary>
+        </member>
+        <member name="F:DCL.Maths.Quaternion.Z">
+            <summary>
+            The k factor of the quaternion.
+            </summary>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.#ctor(System.Single)">
+            <summary>
+            Creates a quaternion, which has only the scalar (real) part
+            </summary>
+            <param name="RealNumber">A real number of single precision</param>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.#ctor(Microsoft.Xna.Framework.Vector3)">
+            <summary>
+            Creates a quaternion, which has only the vector part
+            </summary>
+            <param name="v">An instance of the Vector3 (used in WP7) structure</param>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.#ctor(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Creates a quaternion by setting all the four factors
+            </summary>
+            <param name="Re">The scalar (real) part of the quaternion</param>
+            <param name="X">The i factor</param>
+            <param name="Y">The i factor</param>
+            <param name="Z">The i factor</param>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.Conjugate">
+            <summary>
+            Returns the conjugate of the quaternion
+            </summary>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.Reciprocal">
+            <summary>
+            Returns the inverse of the quaternion
+            </summary>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.Normalize">
+            <summary>
+            Returns the normalized (with the magnitude of 1) quaternion
+            </summary>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.Round(System.Int32)">
+            <summary>
+            Rounds the quaternion, so that each component has the specified amount of signs after dot
+            </summary>
+            <param name="precision">The amount of signs after dot</param>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.Approximate(System.Single)">
+            <summary>
+            Approximates each component of the quaternion to the specified precision
+            </summary>
+            <param name="precision"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.RotationQuaternion(DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Calculates the rotation quaternion from the axis and the rotation angle
+            </summary>
+            <param name="Axis">The quaternion that represents axis; it may be denormalized</param>
+            <param name="Angle">The angle of rotation in radians</param>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.Rotate(DCL.Maths.Quaternion,DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Rotates the vector around the axis by the specified angle
+            </summary>
+            <param name="Source">The quaternion that represents the vector to be rotated</param>
+            <param name="Axis">The quaternion that represents axis; it may be denormalized</param>
+            <param name="Angle">The angle of rotation in radians</param>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.Rotate(DCL.Maths.Quaternion,DCL.Maths.Quaternion,DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Rotates the vector around the translated axis by the specified angle.
+            </summary>
+            <param name="Source">The quaternion that represents the vector to be rotated</param>
+            <param name="Axis">The quaternion that represents axis; it may be denormalized</param>
+            <param name="Angle">The angle of rotation in radians</param>
+            <param name="AxisTranslation">The translation of the axis</param>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.RotateComposition(DCL.Maths.Quaternion,DCL.Maths.Quaternion,System.Single,DCL.Maths.Quaternion,System.Single)">
+            <summary>
+            Makes two rotations of a vector by once.
+            </summary>
+            <param name="Source">The quaternion that represents the vector to be rotated</param>
+            <param name="Axis1">The first axis</param>
+            <param name="Angle1">The angle of the first rotation in radians</param>
+            <param name="Axis2">The second axis</param>
+            <param name="Angle2">The angle of the second rotation in radians</param>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.ToString">
+            <summary>
+            Returns the string representation of the quaternion
+            </summary>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.ToString(System.Int32)">
+            <summary>
+            Returns the string representation of the quaternion with specified precision
+            </summary>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.Equals(System.Object)">
+            <summary>
+            Defines if the current instance of quaternion is equal to the parameter
+            </summary>
+        </member>
+        <member name="M:DCL.Maths.Quaternion.GetHashCode">
+            <summary>
+            Returns the hash code of the current instance of quaternion
+            </summary>
+        </member>
+        <member name="P:DCL.Maths.Quaternion.VectorPart">
+            <summary>
+            Gets the vector part of the quaternion as an instance of the Vector3 Structure (used in WP7)
+            </summary>
+        </member>
+        <member name="P:DCL.Maths.Quaternion.Abs">
+            <summary>
+            The magnitude (absolute value) of the quaternion
+            </summary>
+        </member>
+    </members>
+</doc>

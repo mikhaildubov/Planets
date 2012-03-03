@@ -1,0 +1,5 @@
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\Bin\Debug\DCL.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\Bin\Debug\DCL.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\obj\Debug\DCL.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\obj\Debug\DCL.pdb

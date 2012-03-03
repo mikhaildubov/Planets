@@ -1,0 +1,8 @@
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Release\DCL.Phone.Xna.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Release\DCL.Phone.Xna.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Release\DCL.Maths.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Release\DCL.Maths.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Release\ResolveAssemblyReference.cache
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Release\DCL.Phone.Xna.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Release\DCL.Phone.Xna.pdb

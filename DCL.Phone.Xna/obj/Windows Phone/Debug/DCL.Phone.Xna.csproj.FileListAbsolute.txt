@@ -1,0 +1,26 @@
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Phone.Xna.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Phone.Xna.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Maths.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Maths.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\DCL.Phone.Xna.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\DCL.Phone.Xna.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\DCL.Phone.Xna.Fonts.resources
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\GenerateResource.read.1.tlog
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\GenerateResource.write.1.tlog
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Maths.xml
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Phone.Xna.XML
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Phone.Xna.dll
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Phone.Xna.pdb
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Maths.dll
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Maths.pdb
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Maths.xml
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\DCL.Phone.Xna.Fonts.resources
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\GenerateResource.read.1.tlog
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\GenerateResource.write.1.tlog
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\DCL.Phone.Xna.dll
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\obj\Windows Phone\Debug\DCL.Phone.Xna.pdb
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Phone.Xna\bin\Windows Phone\Debug\DCL.Phone.Xna.XML

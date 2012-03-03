@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>earth.jpg</Source>
+      <Name>earth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\earth.xnb</Output>
+      <Time>2011-05-04T20:30:43.5723724+04:00</Time>
+    </Item>
+    <Item>
+      <Source>moon.jpg</Source>
+      <Name>moon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\moon.xnb</Output>
+      <Time>2011-05-04T12:10:41.9179666+04:00</Time>
+    </Item>
+    <Item>
+      <Source>mars.jpg</Source>
+      <Name>mars</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\mars.xnb</Output>
+      <Time>2011-05-04T20:24:18.6043535+04:00</Time>
+    </Item>
+    <Item>
+      <Source>venus.jpg</Source>
+      <Name>venus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\venus.xnb</Output>
+      <Time>2011-05-04T20:13:14.467367+04:00</Time>
+    </Item>
+    <Item>
+      <Source>red.png</Source>
+      <Name>red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\red.xnb</Output>
+      <Time>2011-04-02T00:45:04+04:00</Time>
+    </Item>
+    <Item>
+      <Source>starfield.png</Source>
+      <Name>starfield</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\starfield.xnb</Output>
+      <Time>2011-05-01T21:22:46.7778003+04:00</Time>
+    </Item>
+    <Item>
+      <Source>SplashScreenImage.jpg</Source>
+      <Name>SplashScreenImage</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\SplashScreenImage.xnb</Output>
+      <Time>2011-05-16T09:10:09.0879111+04:00</Time>
+    </Item>
+    <Item>
+      <Source>jupiter.jpg</Source>
+      <Name>jupiter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\jupiter.xnb</Output>
+      <Time>2011-05-04T20:12:06.4704778+04:00</Time>
+    </Item>
+    <Item>
+      <Source>saturn.jpg</Source>
+      <Name>saturn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\saturn.xnb</Output>
+      <Time>2011-04-09T21:55:58+04:00</Time>
+    </Item>
+    <Item>
+      <Source>callisto.jpg</Source>
+      <Name>callisto</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\callisto.xnb</Output>
+      <Time>2011-05-04T12:01:26.036172+04:00</Time>
+    </Item>
+    <Item>
+      <Source>europa.jpg</Source>
+      <Name>europa</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\europa.xnb</Output>
+      <Time>2011-05-04T12:02:04.885394+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ganymede.jpg</Source>
+      <Name>ganymede</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ganymede.xnb</Output>
+      <Time>2011-05-04T12:03:29.9232579+04:00</Time>
+    </Item>
+    <Item>
+      <Source>io.jpg</Source>
+      <Name>io</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\io.xnb</Output>
+      <Time>2011-05-04T12:03:08.4350289+04:00</Time>
+    </Item>
+    <Item>
+      <Source>mercury.jpg</Source>
+      <Name>mercury</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\mercury.xnb</Output>
+      <Time>2011-05-04T20:12:26.6006292+04:00</Time>
+    </Item>
+    <Item>
+      <Source>neptune.jpg</Source>
+      <Name>neptune</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\neptune.xnb</Output>
+      <Time>2011-04-09T21:56:56+04:00</Time>
+    </Item>
+    <Item>
+      <Source>uranus.jpg</Source>
+      <Name>uranus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\uranus.xnb</Output>
+      <Time>2011-04-09T21:56:36+04:00</Time>
+    </Item>
+    <Item>
+      <Source>deimos.jpg</Source>
+      <Name>deimos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\deimos.xnb</Output>
+      <Time>2011-05-02T01:00:54.6880721+04:00</Time>
+    </Item>
+    <Item>
+      <Source>phobos.jpg</Source>
+      <Name>phobos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\phobos.xnb</Output>
+      <Time>2011-05-02T01:03:37.3503759+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pericles16.spritefont</Source>
+      <Name>Pericles16</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\Pericles16.xnb</Output>
+      <Time>2011-04-01T19:24:32+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Pericles44.spritefont</Source>
+      <Name>Pericles44</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\Pericles44.xnb</Output>
+      <Time>2011-04-01T19:24:32+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Segoe16.spritefont</Source>
+      <Name>Segoe16</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\Segoe16.xnb</Output>
+      <Time>2011-04-01T19:24:32+04:00</Time>
+    </Item>
+    <Item>
+      <Source>sat_ring_color.png</Source>
+      <Name>sat_ring_color</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\sat_ring_color.xnb</Output>
+      <Time>2011-04-30T12:12:41.2579288+04:00</Time>
+    </Item>
+    <Item>
+      <Source>dione.jpg</Source>
+      <Name>dione</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\dione.xnb</Output>
+      <Time>2011-05-02T01:01:04.6726432+04:00</Time>
+    </Item>
+    <Item>
+      <Source>enceladus.jpg</Source>
+      <Name>enceladus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\enceladus.xnb</Output>
+      <Time>2011-05-02T01:01:13.6921591+04:00</Time>
+    </Item>
+    <Item>
+      <Source>iapetus.jpg</Source>
+      <Name>iapetus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\iapetus.xnb</Output>
+      <Time>2011-05-04T12:04:29.2546515+04:00</Time>
+    </Item>
+    <Item>
+      <Source>mimas.jpg</Source>
+      <Name>mimas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\mimas.xnb</Output>
+      <Time>2011-05-02T01:01:30.9241447+04:00</Time>
+    </Item>
+    <Item>
+      <Source>rhea.jpg</Source>
+      <Name>rhea</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\rhea.xnb</Output>
+      <Time>2011-05-02T01:04:06.9360681+04:00</Time>
+    </Item>
+    <Item>
+      <Source>tethys.jpg</Source>
+      <Name>tethys</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\tethys.xnb</Output>
+      <Time>2011-05-02T01:04:18.1897117+04:00</Time>
+    </Item>
+    <Item>
+      <Source>titan.jpg</Source>
+      <Name>titan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\titan.xnb</Output>
+      <Time>2011-05-04T12:04:51.8609445+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ariel.jpg</Source>
+      <Name>ariel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ariel.xnb</Output>
+      <Time>2011-05-03T19:50:32.8730219+04:00</Time>
+    </Item>
+    <Item>
+      <Source>miranda.jpg</Source>
+      <Name>miranda</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\miranda.xnb</Output>
+      <Time>2011-05-03T19:51:23.1408971+04:00</Time>
+    </Item>
+    <Item>
+      <Source>oberon.jpg</Source>
+      <Name>oberon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\oberon.xnb</Output>
+      <Time>2011-05-03T19:50:50.4790289+04:00</Time>
+    </Item>
+    <Item>
+      <Source>titania.jpg</Source>
+      <Name>titania</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\titania.xnb</Output>
+      <Time>2011-05-03T19:51:01.8996821+04:00</Time>
+    </Item>
+    <Item>
+      <Source>umbriel.jpg</Source>
+      <Name>umbriel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\umbriel.xnb</Output>
+      <Time>2011-05-03T19:52:30.7637649+04:00</Time>
+    </Item>
+    <Item>
+      <Source>proteus.jpg</Source>
+      <Name>proteus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\proteus.xnb</Output>
+      <Time>2011-05-02T00:58:57.09466+04:00</Time>
+    </Item>
+    <Item>
+      <Source>triton.jpg</Source>
+      <Name>triton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\triton.xnb</Output>
+      <Time>2011-05-02T01:05:14.5769369+04:00</Time>
+    </Item>
+    <Item>
+      <Source>nereid.jpg</Source>
+      <Name>nereid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\nereid.xnb</Output>
+      <Time>2011-05-03T19:52:07.4314303+04:00</Time>
+    </Item>
+    <Item>
+      <Source>GPS_off.png</Source>
+      <Name>GPS_off</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\GPS_off.xnb</Output>
+      <Time>2011-05-02T22:46:27.7527365+04:00</Time>
+    </Item>
+    <Item>
+      <Source>GPS_on.png</Source>
+      <Name>GPS_on</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\GPS_on.xnb</Output>
+      <Time>2011-05-02T22:44:40.2435874+04:00</Time>
+    </Item>
+    <Item>
+      <Source>GPS_search.png</Source>
+      <Name>GPS_search</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\GPS_search.xnb</Output>
+      <Time>2011-05-02T22:48:44.9755852+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Segoe12.spritefont</Source>
+      <Name>Segoe12</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\Segoe12.xnb</Output>
+      <Time>2011-05-02T22:56:11.4991249+04:00</Time>
+    </Item>
+    <Item>
+      <Source>day.png</Source>
+      <Name>day</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\day.xnb</Output>
+      <Time>2011-05-03T20:03:35.3197753+04:00</Time>
+    </Item>
+    <Item>
+      <Source>diameter.png</Source>
+      <Name>diameter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\diameter.xnb</Output>
+      <Time>2011-05-03T19:59:23.5373742+04:00</Time>
+    </Item>
+    <Item>
+      <Source>gravitation.png</Source>
+      <Name>gravitation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\gravitation.xnb</Output>
+      <Time>2011-05-03T20:07:00.4715093+04:00</Time>
+    </Item>
+    <Item>
+      <Source>remoteness.png</Source>
+      <Name>remoteness</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\remoteness.xnb</Output>
+      <Time>2011-05-03T20:13:46.5887379+04:00</Time>
+    </Item>
+    <Item>
+      <Source>temperatures.png</Source>
+      <Name>temperatures</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\temperatures.xnb</Output>
+      <Time>2011-05-03T20:01:34.3878584+04:00</Time>
+    </Item>
+    <Item>
+      <Source>year.png</Source>
+      <Name>year</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\year.xnb</Output>
+      <Time>2011-05-03T20:14:33.0683964+04:00</Time>
+    </Item>
+    <Item>
+      <Source>mass.png</Source>
+      <Name>mass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\mass.xnb</Output>
+      <Time>2011-05-03T20:10:46.335428+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_deimos.png</Source>
+      <Name>ico_deimos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_deimos.xnb</Output>
+      <Time>2011-05-04T11:40:22.2258862+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_moon.jpg</Source>
+      <Name>ico_moon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_moon.xnb</Output>
+      <Time>2011-05-03T23:53:59.0387065+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_phobos.png</Source>
+      <Name>ico_phobos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_phobos.xnb</Output>
+      <Time>2011-05-04T11:39:55.8783792+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_europa.png</Source>
+      <Name>ico_europa</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_europa.xnb</Output>
+      <Time>2011-05-04T10:28:57.0597887+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_ganymede.png</Source>
+      <Name>ico_ganymede</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_ganymede.xnb</Output>
+      <Time>2011-05-04T10:30:23.7517472+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_io.png</Source>
+      <Name>ico_io</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_io.xnb</Output>
+      <Time>2011-05-04T10:27:59.788513+04:00</Time>
+    </Item>
+    <Item>
+      <Source>Segoe8.spritefont</Source>
+      <Name>Segoe8</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\Segoe8.xnb</Output>
+      <Time>2011-05-03T22:24:17.3359542+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_callisto.png</Source>
+      <Name>ico_callisto</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_callisto.xnb</Output>
+      <Time>2011-05-04T10:46:51.7512575+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_dione.png</Source>
+      <Name>ico_dione</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_dione.xnb</Output>
+      <Time>2011-05-04T10:49:05.2158913+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_enceladus.png</Source>
+      <Name>ico_enceladus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_enceladus.xnb</Output>
+      <Time>2011-05-04T10:50:39.7522984+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_iapetus.png</Source>
+      <Name>ico_iapetus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_iapetus.xnb</Output>
+      <Time>2011-05-04T10:48:21.8414104+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_mimas.png</Source>
+      <Name>ico_mimas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_mimas.xnb</Output>
+      <Time>2011-05-04T10:51:15.8863652+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_rhea.png</Source>
+      <Name>ico_rhea</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_rhea.xnb</Output>
+      <Time>2011-05-04T10:46:12.1089901+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_tethys.png</Source>
+      <Name>ico_tethys</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_tethys.xnb</Output>
+      <Time>2011-05-04T10:49:54.0896867+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_titan.png</Source>
+      <Name>ico_titan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_titan.xnb</Output>
+      <Time>2011-05-04T10:45:02.0599835+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_ariel.png</Source>
+      <Name>ico_ariel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_ariel.xnb</Output>
+      <Time>2011-05-04T11:11:15.5739834+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_miranda.png</Source>
+      <Name>ico_miranda</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_miranda.xnb</Output>
+      <Time>2011-05-04T11:14:01.8104916+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_oberon.png</Source>
+      <Name>ico_oberon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_oberon.xnb</Output>
+      <Time>2011-05-04T11:23:39.0135057+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_titania.png</Source>
+      <Name>ico_titania</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_titania.xnb</Output>
+      <Time>2011-05-04T11:23:07.3046921+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_umbriel.png</Source>
+      <Name>ico_umbriel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_umbriel.xnb</Output>
+      <Time>2011-05-04T11:12:05.272826+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_nereid.png</Source>
+      <Name>ico_nereid</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_nereid.xnb</Output>
+      <Time>2011-05-04T11:47:19.8357721+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_proteus.png</Source>
+      <Name>ico_proteus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_proteus.xnb</Output>
+      <Time>2011-05-04T11:54:33.0685516+04:00</Time>
+    </Item>
+    <Item>
+      <Source>ico_triton.jpg</Source>
+      <Name>ico_triton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\ico_triton.xnb</Output>
+      <Time>2011-05-04T11:43:06.8343012+04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>WindowsPhone</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\PlanetsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\PlanetsContent\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\MSDubov\My Software\Windows Phone\Planets\Planets\Planets\bin\Windows Phone\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-04-16T08:51:42.2139824+04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Planets.Planets" Collapsed="true">
+    <Position X="3.25" Y="9.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>WUQMUkUQgkEyBwEAA4CMgJAASmQABQAA04ZgJAU4Bjw=</HashCode>
+      <FileName>Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DCL.Phone.Xna.PivotGame">
+    <Position X="2.75" Y="1.5" Width="2.25" />
+    <NestedTypes>
+      <Delegate Name="DCL.Phone.Xna.PivotGame.SelectionChangedEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

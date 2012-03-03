@@ -1,0 +1,17 @@
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\Bin\Debug\DCL.Maths.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\Bin\Debug\DCL.Maths.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\obj\Debug\DCL.Maths.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL\obj\Debug\DCL.Maths.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Maths\Bin\Debug\DCL.Maths.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Maths\Bin\Debug\DCL.Maths.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Maths\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Maths\obj\Debug\DCL.Maths.dll
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Maths\obj\Debug\DCL.Maths.pdb
+C:\Users\Михаил Дубов\Мои программы\Libraries\Dubov Class Library\DCL.Maths\Bin\Debug\DCL.Maths.XML
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Maths\Bin\Debug\DCL.Maths.dll
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Maths\Bin\Debug\DCL.Maths.pdb
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Maths\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Maths\obj\Debug\DCL.Maths.dll
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Maths\obj\Debug\DCL.Maths.pdb
+C:\Users\MSDubov\My Software\Libraries\Dubov Class Library\DCL.Maths\Bin\Debug\DCL.Maths.XML
